@@ -1,6 +1,12 @@
 html
 { height: 100%;}
 
+  <style type="text/css">
+     span.selected {color: #000000}
+     span.author {color: #000000}
+     span.title {font-weight: bold;}
+     li {margin-top: 0px; margin-bottom: 16px}
+  </style>
 *
 { margin: 0;
   padding: 0;}
