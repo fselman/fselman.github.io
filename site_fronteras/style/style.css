@@ -156,6 +156,12 @@ ul#menu li a:hover, ul#menu li.tab_selected a, ul#menu li.tab_selected a:hover
 { color: #222;
   background: url(menu_hover.png) center bottom no-repeat;}
 
+.flags li{
+    display:inline;
+    float:right;
+    padding: 0 8px;
+}
+
 #site_content
 { width: 875px;
   overflow: hidden;
