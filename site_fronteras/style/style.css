@@ -289,11 +289,11 @@ table
 { margin: 10px 0 30px 0;}
 
 table tr th, table tr td
-{ background: #3B3B3B;
+{ background:   #3498DB;
   color: #FFF;
   padding: 7px 4px;}
   
 table tr td
-{ background: #CCCCCC;
-  color: #47433F;
+{ background:   #D0D3D4;
+  color:   #21618C ;
   border-top: 1px solid #FFF;}
