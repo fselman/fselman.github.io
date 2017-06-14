@@ -297,3 +297,36 @@ table tr td
 { background:   #D0D3D4;
   color:   #21618C ;
   border-top: 1px solid #FFF;}
+
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  height: 25px;
+  width: 60px;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.0);
+  color: #FFF;
+  text-shadow:
+      -1px -1px 0 #000,
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
